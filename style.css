@@ -1,0 +1,80 @@
+/* Parent Stylings */
+a{
+    display: inline;
+    font-family: "Arial", "Sans-Serif";
+    font-size: 13px;
+    color: rgba(0,0,0,0.87);
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+div.logo{
+    padding-top: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.homenav{
+    padding-top:;
+    position: absolute;
+    width: 100%;
+}
+
+#buttons{
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+#search input{
+    color: #222;
+    height: 34px;
+    width: 500px;
+}
+
+div.footer{
+    width: 100%;
+    color:rgba(0,0,0,.54);
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+}
+
+#signin{
+    color: #222;
+    font-weight: bold;
+    text-decoration: none;
+    float:right;
+}
+
+
+/* Directional Stylings */
+a.home-left{
+    float: left;
+}
+
+a.home-right{
+    float: right;
+    
+}
+
+a.right-footer{
+    float: right;
+}
+
+a.left-footer{
+    float: left;
+}
